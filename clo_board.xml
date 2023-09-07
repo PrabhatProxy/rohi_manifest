@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<remote  name="clo-ve"
+           fetch="https://git.codelinaro.org/clo/la"
+           review="codelinaro.org" 
+           revision="refs/tags/LA.UM.9.6.2.c26-03700-89xx.0"/>
+
+<project name="platform/external/ant-wireless/ant_native" path="external/ant-wireless/ant_native" remote="clo-ve" />
+<project name="platform/external/ant-wireless/ant_client" path="external/ant-wireless/ant_client" remote="clo-ve" />
+<project name="platform/external/autotest" path="external/autotest" remote="clo-ve"/>
+</manifest>

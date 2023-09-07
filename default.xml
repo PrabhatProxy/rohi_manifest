@@ -98,9 +98,6 @@
   <project name="platform/external/androidplot" path="external/androidplot" />
   <project name="platform/external/angle" path="external/angle" />
   <project name="platform/external/ant-glob" path="external/ant-glob" />
-  <project name="platform/external/ant-wireless/ant_client" path="external/ant-wireless/ant_client" />
-  <project name="platform/external/ant-wireless/ant_native" path="external/ant-wireless/ant_native" />
-  <project name="platform/external/ant-wireless/ant_service" path="external/ant-wireless/ant_service" />
   <project name="platform/external/ant-wireless/hidl" path="external/ant-wireless/hidl" />
   <project name="platform/external/antlr" path="external/antlr" />
   <project name="platform/external/apache-commons-bcel" path="external/apache-commons-bcel" />
@@ -111,7 +108,6 @@
   <project name="platform/external/apache-xml" path="external/apache-xml" />
   <project name="platform/external/arm-optimized-routines" path="external/arm-optimized-routines" />
   <project name="platform/external/arm-trusted-firmware" path="external/arm-trusted-firmware" />
-  <project name="platform/external/autotest" path="external/autotest" />
   <project name="platform/external/avb" path="external/avb" />
   <project name="platform/external/bc" path="external/bc" />
   <project name="platform/external/bcc" path="external/bcc" />
@@ -842,6 +838,7 @@
 
   <!-- Add all tracked repos -->
   <include name="snippets/remove.xml" />
+  <include name="clo_board.xml" />
   <include name="snippets/aosp.xml" />
   <include name="snippets/rohie.xml" />
   <include name="snippets/lineage.xml" />
