@@ -5,7 +5,7 @@
   <remote  name="clo-la"
            fetch="https://git.codelinaro.org/clo/la"
            review="codelinaro.org" />
-  <default revision="refs/tags/LA.UM.9.2.1.r1-08000-sdm660.0"
+  <default revision="refs/tags/LA.QSSI.11.0.r1-19900-qssi.0"
            remote="clo-la"
            sync-c="true"
            sync-f="true" />
@@ -14,7 +14,7 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="https://android-review.googlesource.com/"
-           revision="refs/tags/android-11.0.0_r43"/>
+           revision="refs/tags/android-11.0.0_r45"/>
 
   <remote  name="github"
            fetch="https://github.com" />
