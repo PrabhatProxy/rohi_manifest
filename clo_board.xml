@@ -8,4 +8,17 @@
 <project name="platform/external/ant-wireless/ant_native" path="external/ant-wireless/ant_native" remote="clo-ve" />
 <project name="platform/external/ant-wireless/ant_client" path="external/ant-wireless/ant_client" remote="clo-ve" />
 <project name="platform/external/autotest" path="external/autotest" remote="clo-ve"/>
+<project name="platform/external/chromium-webview" path="external/chromium-webview" clone-depth="1" remote="clo-ve" />
+
+<project name="platform/hardware/qcom/bootctrl" path="hardware/qcom/bootctrl" remote="clo-ve" />
+<project name="platform/packages/apps/SnapdragonCamera" path="packages/apps/SnapdragonCamera" remote="clo-ve" />
+<project name="platform/vendor/qcom-opensource/shortcut-fe" path="shortcut-fe" remote="clo-ve" />
+
+<project name="platform/packages/apps/SnapdragonGallery" path="vendor/codeaurora/commonsys/packages/apps/SnapdragonGallery"  remote="clo-ve" />
+<project name="platform/vendor/qcom-opensource/healthd-ext" path="vendor/qcom/opensource/healthd-ext" remote="clo-ve" />
+<project name="platform/vendor/qcom-opensource/mmc-utils" path="vendor/qcom/opensource/mmc-utils" remote="clo-ve" />
+
+<project name="platform/system/qcom" path="vendor/qcom/opensource/softap" remote="clo-ve" />
+<project name="platform/vendor/qcom-opensource/thermal-engine" path="vendor/qcom/opensource/thermal-engine" remote="clo-ve" />
+ <project name="platform/vendor/qcom-opensource/tools" path="vendor/qcom/opensource/tools" remote="clo-ve" />
 </manifest>

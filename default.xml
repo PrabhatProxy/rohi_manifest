@@ -124,7 +124,6 @@
   <project name="platform/external/cbor-java" path="external/cbor-java" />
   <project name="platform/external/chromium-libpac" path="external/chromium-libpac" />
   <project name="platform/external/chromium-trace" path="external/chromium-trace" />
-  <project name="platform/external/chromium-webview" path="external/chromium-webview" clone-depth="1" />
   <project name="platform/external/clang" path="external/clang" />
   <project name="platform/external/cldr" path="external/cldr" />
   <project name="platform/external/cn-cbor" path="external/cn-cbor" />
@@ -486,7 +485,6 @@
   <project name="platform/hardware/nxp/nfc" path="hardware/nxp/nfc" />
   <project name="platform/hardware/nxp/secure_element" path="hardware/nxp/secure_element" />
   <project name="platform/hardware/qcom/audio" path="vendor/qcom/opensource/audio-hal/primary-hal" />
-  <project name="platform/hardware/qcom/bootctrl" path="hardware/qcom/bootctrl" />
   <project name="platform/hardware/qcom/camera" path="hardware/qcom/camera" />
   <project name="platform/hardware/qcom/display" path="hardware/qcom/display" />
   <project name="platform/hardware/qcom/gps" path="hardware/qcom/gps" >
@@ -563,8 +561,6 @@
   <project name="platform/packages/apps/SecureElement" path="packages/apps/SecureElement" />
   <project name="platform/packages/apps/Settings" path="packages/apps/Settings" />
   <project name="platform/packages/apps/SettingsIntelligence" path="packages/apps/SettingsIntelligence" />
-  <project name="platform/packages/apps/SnapdragonCamera" path="packages/apps/SnapdragonCamera" />
-  <project name="platform/packages/apps/SnapdragonGallery" path="vendor/codeaurora/commonsys/packages/apps/SnapdragonGallery" />
   <project name="platform/packages/apps/SnapdragonMusic" path="vendor/codeaurora/commonsys/packages/apps/SnapdragonMusic" >
     <linkfile dest="vendor/qcom/defs/product-defs/system/app_snapMusic_product.mk" src="app_snapMusic_system_product.mk"/>
   </project>
@@ -704,7 +700,6 @@
   <project name="platform/system/netd" path="system/netd" />
   <project name="platform/system/nfc" path="system/nfc" />
   <project name="platform/system/nvram" path="system/nvram" />
-  <project name="platform/system/qcom" path="vendor/qcom/opensource/softap" />
   <project name="platform/system/security" path="system/security" />
   <project name="platform/system/sepolicy" path="system/sepolicy" />
   <project name="platform/system/server_configurable_flags" path="system/server_configurable_flags" />
@@ -801,21 +796,16 @@
   <project name="platform/vendor/qcom-opensource/dpm-commonsys" path="vendor/qcom/opensource/commonsys/dpm" />
   <project name="platform/vendor/qcom-opensource/fm-commonsys" path="vendor/qcom/opensource/commonsys/fm" />
   <project name="platform/vendor/qcom-opensource/fst-manager" path="vendor/qcom/opensource/fst-manager" />
-  <project name="platform/vendor/qcom-opensource/healthd-ext" path="vendor/qcom/opensource/healthd-ext" />
   <project name="platform/vendor/qcom-opensource/interfaces" path="vendor/qcom/opensource/interfaces" />
   <project name="platform/vendor/qcom-opensource/location" path="vendor/qcom/opensource/location" >
     <linkfile dest="vendor/qcom/defs/product-defs/vendor/gps-product-opensource.mk" src="gps_vendor_product.mk"/>
     <linkfile dest="vendor/qcom/defs/product-defs/legacy/gps-product-opensource.mk" src="gps_vendor_product.mk"/>
   </project>
-  <project name="platform/vendor/qcom-opensource/mmc-utils" path="vendor/qcom/opensource/mmc-utils" />
   <project name="platform/vendor/qcom-opensource/packages/apps/Bluetooth" path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" />
   <project name="platform/vendor/qcom-opensource/power" path="vendor/qcom/opensource/power" />
   <project name="platform/vendor/qcom-opensource/recovery-ext" path="vendor/qcom/opensource/recovery-ext" />
-  <project name="platform/vendor/qcom-opensource/shortcut-fe" path="shortcut-fe" />
   <project name="platform/vendor/qcom-opensource/system/bt" path="vendor/qcom/opensource/commonsys/system/bt" />
-  <project name="platform/vendor/qcom-opensource/thermal-engine" path="vendor/qcom/opensource/thermal-engine" />
   <project name="platform/vendor/qcom-opensource/time-services" path="vendor/qcom/opensource/time-services" />
-  <project name="platform/vendor/qcom-opensource/tools" path="vendor/qcom/opensource/tools" />
   <project name="platform/vendor/qcom-opensource/usb" path="vendor/qcom/opensource/usb" >
     <linkfile dest="vendor/qcom/defs/product-defs/vendor/usb_vendor_product.mk" src="vendor_product.mk"/>
   </project>
